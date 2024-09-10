@@ -9,6 +9,13 @@ int main() {
 	int i;
 	float* average_grades = NULL;
 	statistics stats;
+	printf("===================================================\n");
+	printf(" _    _      _                            _          \n");
+	printf("| |  | |    | |                          | |         \n");
+	printf("| |  | | ___| | ___ ___  _ __ ___   ___  | |_ ___    \n");
+	printf("| |/\\| |/ _ \\ |/ __/ _ \\| '_ ` _ \\ / _ \\ | __/ _ \\   \n");
+	printf("\\  /\\  /  __/ | (_| (_) | | | | | |  __/ | || (_) |  \n");
+	printf(" \\/  \\/ \\___|_|\\___\\___/|_| |_| |_|\\___|  \\__\\___/   \n");
 
 	printf("Please Enter Number of Students: ");
 	scanf_s("%d", &number_of_students);
